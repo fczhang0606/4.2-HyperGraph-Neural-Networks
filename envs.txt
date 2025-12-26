@@ -1,0 +1,13 @@
+conda init
+conda config --set auto_activate_base true
+source ~/.bashrc
+
+conda create -n HGNN
+conda activate HGNN
+
+https://pytorch.org/get-started/previous-versions/
+conda install python=3.6 pytorch==1.1.0 torchvision==0.3.0 cudatoolkit=10.0 -c pytorch
+
+pip install 'pyyaml<5.1'
+pip install scikit-learn
+
